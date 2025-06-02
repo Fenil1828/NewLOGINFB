@@ -36,7 +36,7 @@ const Signup = () => {
             return handleError('name, email and password are required')
         }
         try{
-            const url = "https://new-loginfb-api.vercel.app/auth/signup";
+            const url = "https://new-loginfb-api.vercel.app/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers:{
